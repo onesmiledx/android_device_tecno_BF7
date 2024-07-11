@@ -33,3 +33,11 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+DEVICE_RESOLUTION := 720x1612
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 32
+
+# API
+PRODUCT_SHIPPING_API_LEVEL := 32
